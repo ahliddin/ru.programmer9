@@ -4,7 +4,7 @@ description: ""
 meta_description: "Посты и туториалы по программированию"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: 
+baseurl:
 google_analytics: 'UA-57159647-7'
 disqus: 'programmer9'
 #mailchimp-list: 'https://anthonylan.us19.list-manage.com/subscribe/post?u=43e8a38e03521aaf4d25c6cb5&amp;id=a451458bec'
@@ -21,17 +21,18 @@ authors:
     description: ""
 
 # Plugins
-plugins: 
+plugins:
   - jekyll-paginate
   - jekyll-archives
   - jekyll-seo-tag
   - jekyll-sitemap
-    
-    
+  - jekyll-figure
+
+
 # Pagination 
 paginate: 6
 paginate_path: /page:num/
-    
+
 # Other
 markdown: kramdown
 highlighter: rouge

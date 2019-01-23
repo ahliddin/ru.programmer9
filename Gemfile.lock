@@ -33,6 +33,7 @@ GEM
       jekyll (>= 2.4)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-figure (0.1.0)
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
@@ -71,6 +72,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll-archives
   jekyll-feed
+  jekyll-figure
   jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
