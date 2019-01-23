@@ -1,5 +1,4 @@
-{% figure caption:"{{ include.caption }}" class:"image-caption" %}
-
-    <img src="{{ include.url }}" alt="{{ include.caption }}">
-
-{% endfigure %}
+<figure class="image-caption">
+    <p><img src="{{ include.url }}" /></p>
+    <figcaption>{{ include.caption }}</figcaption>
+</figure>

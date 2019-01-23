@@ -46,18 +46,16 @@ description: как запустить проект за 10 дней
 Карты - отличный способ для группировки соответствующей информации, их также можно выделять на странице с помощью падающих теней или контуров.
 Они могут быть очень разные, взгляните на следующие примеры:
 
-{% comment %}  {% include image.html
+{% include image.html
     caption="<a href='https://crisp.chat/en/pricing'>src: https://crisp.chat/en/pricing</a>"
-    url="/assets/images/launch-project-in-ten-days/card_design.png" %}
-{% endcomment %}
+    url="/assets/images/launch-project-in-ten-days/card_design.png"
+%}
 
-{% figure caption:"<a href='https://crisp.chat/en/pricing'>src: https://crisp.chat/en/pricing</a>" class:"image-caption" %}
-<img src='/assets/images/launch-project-in-ten-days/card_design.png'>
-{% endfigure %}
+{% include image.html
+    caption="<a href='https://flat.io/pricing'>src: https://flat.io/pricing</a>"
+    url="/assets/images/launch-project-in-ten-days/card_design2.png"
+%}
 
-{% figure caption:"<a href='https://flat.io/pricing'>src: https://flat.io/pricing</a>" class:"image-caption" %}
-<img src='/assets/images/launch-project-in-ten-days/card_design2.png'>
-{% endfigure %}
 
 Они могут иметь падающие тени, выборочные границы на конкретных сторонах, стили наведения (:hover), разные цвета.
 Вы даже можете применить несколько теней для одного элемента, чтобы создать более экспоненциальный градиент.
@@ -68,9 +66,11 @@ description: как запустить проект за 10 дней
 Я начал создавать прототип в [Figma](https://www.figma.com), не сильно фокусируя внимание на второстепенных вещах, которые я мог добавить потом, например, логотипы для брендов, соц иконки, и т.д.
 Получился вот такой прототип:
 
-{% figure caption:"<a href='https://flat.io/pricing'>src: https://flat.io/pricing</a>" class:"image-caption" %}
-<img src='/assets/images/launch-project-in-ten-days/figma.png'>
-{% endfigure %}
+
+{% include image.html
+    caption="<a href='https://www.figma.com/file/Cav6jxGjiOSOJLaZrnWUtiG1/Cards'>src: https://www.figma.com/file/Cav6jxGjiOSOJLaZrnWUtiG1/Cards</a>"
+    url="/assets/images/launch-project-in-ten-days/figma.png"
+%}
 
 
 В конечном продукте я хотел иметь следующие вещи:
@@ -117,9 +117,10 @@ description: как запустить проект за 10 дней
 
 В итоге я осознал, что могу просто довольствоваться результатом своего тяжелого труда и ценить эту крутую штуку, которую я создал.
 
-{% figure caption:"Конечный результат" class:"image-caption" %}
-<img src='/assets/images/launch-project-in-ten-days/cardsurge_app.png'>
-{% endfigure %}
+{% include image.html
+    caption="Конечный результат"
+    url="/assets/images/launch-project-in-ten-days/cardsurge_app.png"
+%}
 
 Следующим шагом было развёртывание, которое оказалось довольно простым процессом.
 Я очень не хотел тратить деньги на домен для сайд-проекта, о котором через пару лет могу и не вспомнить.
